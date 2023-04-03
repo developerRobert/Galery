@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Galery</title>
+    <link rel="stylesheet" href="../Galery/archivocss/index.css">
+    <script defer src="../Galery/archivosjs/index.js"></script>
 </head>
 <body>
     <div class="contenedor">
-        <h1>Galery</h1>
+        <h1 class="titulo_carousel">Galery Carousel</h1>
+        <div class="contenedor_carusel">
+            <button class="btn btn_arrow"  onclick="slider(-1)"><img src="../Galery/icon/arrow.svg" alt="" ></button>
+            <div class="conteiner_imagen  cont_img">
+                <img src="../Galery/img/orange.jpg" width="100%">
+            </div>
+            <button class="btn btn_arrow_next" onclick="sider(1)"  ><img src="../Galery/icon/arrowright.svg" alt=""></button>
+
+            <div class="conte_dot">
+                <div onclick="currentSlider(1)" class="dot "></div>
+                <div onclick="currentSlider(2)" class="dot "></div>
+                <div onclick="currentSlider(3)" class="dot activo "></div>
+                <div onclick="currentSlider(4)" class="dot "></div>
+                <div onclick="currentSlider(5)" class="dot "></div>
+            </div>
+        </div>
+
+    
     </div>
     
 </body>
