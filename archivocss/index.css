@@ -8,14 +8,14 @@
     --borde: 1px solid black;
 }
 body{
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
-    /* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+    width: 99%;
+    height: 105vh;
+    /* background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%); */
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
     /* background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); */
 }
 .contenedor{
-    width: 90%;
+    width: 100%;
     height: 100vh;
     margin: 10px auto;
    /* justify-content: space-around; */
@@ -26,22 +26,29 @@ body{
 }
 .titulo_carousel{
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 1px;
+    margin: 5px;
     margin-top: 10px;
     text-align: center;
 
 }
 .contenedor_carusel{
-    width: 90%;
+    width: 100%;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center ;
 }
+.imagen{
+    object-fit: cover ;
+    object-position: center;
+    height: 100%;
+}
+
 .conteiner_imagen{
-    width: 820px;
-    height: 420px;
+    width: 100%;
+    height: 520px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.507);
     box-shadow: 0px 6px 10px black;
@@ -69,7 +76,7 @@ body{
     width: 500px;
     height: 30px;
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     background-color: #13547a;
     
     display: flex;
