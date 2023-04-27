@@ -163,10 +163,10 @@ body{
       
      } 
      .btn_arrow{
-        left: 60px;
+        left: 40px;
     } 
     .btn_arrow_next{
-        right: 60px;
+        right: 40px;
     }
 }
 
@@ -196,10 +196,10 @@ body{
         position: absolute;
        }
        .btn_arrow{
-          left: 40px;
+          left: 15px;
       }
       .btn_arrow_next{
-          right: 40px;
+          right: 15px;
       }
 }
 @media (max-width: 425px) {
@@ -215,10 +215,10 @@ body{
         width: 370px;
      }
      .btn_arrow{
-        left: 10px;
+        left: 2px;
     }
     .btn_arrow_next{
-        right: 10px;
+        right: 2px;
     }
     
      
