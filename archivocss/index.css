@@ -205,6 +205,7 @@ body{
 @media (max-width: 425px) {
     .conte_dot{ 
         width: 300px; 
+        bottom: 0px;
     }
     .conteiner_imagen{
         height: 100%;
@@ -215,10 +216,10 @@ body{
         width: 370px;
      }
      .btn_arrow{
-        left: 2px;
+        left: 0px;
     }
     .btn_arrow_next{
-        right: 2px;
+        right: 0px;
     }
     
      
