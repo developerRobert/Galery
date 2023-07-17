@@ -71,6 +71,7 @@ body{
     object-fit: cover ;
     object-position: center;
     width: 100%;
+    height: 100%;
     
 }
 
@@ -135,9 +136,7 @@ body{
     .contenedor_carusel{
         height: 84%;
     }
-    .imagen{
-        height: 100%;
-    }
+
     .conte_dot{
         width: 70%;
     }
