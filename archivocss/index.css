@@ -13,7 +13,7 @@ body{
 }
 .contenedor{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     display: flex;
     align-items: center;
 }
@@ -32,23 +32,21 @@ body{
     align-items: center;
     justify-content: center;
     width: 98%;
-    height: 65px;
+    height: 60px;
     border: 2px solid white;
     border-radius: 4px;
-
-
 }
 .titulo_carousel{
     color: white;
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 1px;
     text-align: center;
     font-family: cursive;
 
 }
 .contenedor_carusel{
-    width: 95%;
-    height: 85%;
+    width: 98%;
+    height: 88%;
     display: flex;
     align-items: center;
     justify-content: space-between ;
@@ -94,13 +92,15 @@ body{
 }
 
 .conte_dot{
-    width: 500px;
-    height: 30px;
+    width: 50%;
+    height: 40px;
     position: absolute;
-    top: 95%;
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #13547a;
+    border-radius: 4px;
+ 
     
     display: flex;
     justify-content: center;
@@ -131,43 +131,24 @@ body{
 
 /*  media query */
 
-@media (max-width: 1024px) {
-
-    
-     
-}
-
 @media (max-width:768px) {
-    .contenedor{
-        height: 100%; 
-    }
-    .cont{
-        width: 98%;
-        height: 100%;
-        gap: 5px;
-        margin-top: 10px;
-    }
-    .cont-titulo{
-        width: 98%;
-        height: 60px;
-        margin-top: 8px;
-    
-    }
     .contenedor_carusel{
-        width: 98%;
-        height:90%;
-    }
-
-    .conteiner_imagen{
-        width: 98%;
-        height: 99%;
+        height: 84%;
     }
     .imagen{
-       height: 100%;
-        
+        height: 100%;
     }
     .conte_dot{
-        top: 94%;
+        width: 70%;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+
+    .conte_dot{ 
+        width: 90%;   
     }
     .btn_arrow{
         left: 0px;
@@ -175,72 +156,16 @@ body{
     .btn_arrow_next{
         right: 0px;
     }
-}
-
-@media (max-width: 600px) {
    
-    .titulo_carousel{
-        font-size: 50px;
-        color:white;
-        margin-top: 40px;
-    }
-     .conteiner_imagen{
-        height: 100%;
-        border-radius: 10px;
-
-     }
-     .conte_dot{
-        bottom: 0px ; 
-        width: 200px; 
-    }
-    .contenedor_carusel{
-        width: 500px;
-     }
-     /* .btn{
-        display: none;
-     } */
-     .btn{
-        position: absolute;
-       }
-       .btn_arrow{
-          left: 15px;
-      }
-      .btn_arrow_next{
-          right: 15px;
-      }
-}
-@media (max-width: 425px) {
-    .conte_dot{ 
-        width: 300px; 
-        bottom: 0px;
-    }
-    .conteiner_imagen{
-        height: 100%;
-        border-radius: 10px;
-
-     }
-     .contenedor_carusel{
-        width: 370px;
-     }
-     .btn_arrow{
-        left: 0px;
-    }
-    .btn_arrow_next{
-        right: 0px;
-    }
     
      
 }
 
 @media (max-width:375px) {
     .contenedor_carusel{
-        width: 320px;
+        width: 98%;
+     }  
+     .titulo_carousel{
+        font-size: 35px;
      }
-     .conte_dot{ 
-        width: 250px; 
-    }
-    .btn{
-        display: none;
-    }
-    
 }
